@@ -1,0 +1,48 @@
+.pai{
+
+    width:400px ;
+    height:400px ;
+    background-color:red ;
+}
+
+
+.filho-1{
+
+    width:200px ;
+    height:200px ;
+    background-color:green ;
+    position: relative; 
+}
+
+.filho-2{
+    width:200px ;
+    height:200px ;
+    background-color:yellow;
+
+}
+
+.filho-3{
+
+    width:200px ;
+    height:200px ;
+    background-color:orange;
+}
+
+/* a diferença da position static para a relative 
+e que a Relative dar para mudar o top, left , bottom
+e right , dando para mudar em vários tipos a propriedade
+position ./*
+
+/* as propriedades top , left , bottom e rigth 
+faz com  que  faz fora da posição relative 
+mudando para alguns locais  
+
+
+/* quando for trocar para position absolute , tem que se trocar
+para  a parte mais alta da hierarquia que é o Pai  se o pai tiver
+relative ou outra propriedade o filho também vai estar com a mesma 
+position que o PAi 
+
+
+/* quando não tiver nada no PAI o filho não tem ordem alguma 
+é pode ser alterado em várias position 
